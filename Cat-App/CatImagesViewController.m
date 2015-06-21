@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  FirstViewController.m
 //  Cat-App
 //
 //  Created by Lukas Carvajal on 6/21/15.
 //  Copyright (c) 2015 Lukas Carvajal. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "CatImagesViewController.h"
 
-@interface SecondViewController ()
+@interface CatImagesViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation CatImagesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		80FB5A571B369C8100FE473E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB5A561B369C8100FE473E /* main.m */; };
 		80FB5A5A1B369C8100FE473E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB5A591B369C8100FE473E /* AppDelegate.m */; };
-		80FB5A5D1B369C8100FE473E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB5A5C1B369C8100FE473E /* FirstViewController.m */; };
-		80FB5A601B369C8100FE473E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB5A5F1B369C8100FE473E /* SecondViewController.m */; };
+		80FB5A5D1B369C8100FE473E /* CatImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB5A5C1B369C8100FE473E /* CatImagesViewController.m */; };
+		80FB5A601B369C8100FE473E /* CatIdentifierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB5A5F1B369C8100FE473E /* CatIdentifierViewController.m */; };
 		80FB5A631B369C8100FE473E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FB5A611B369C8100FE473E /* Main.storyboard */; };
 		80FB5A651B369C8100FE473E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FB5A641B369C8100FE473E /* Images.xcassets */; };
 		80FB5A681B369C8100FE473E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FB5A661B369C8100FE473E /* LaunchScreen.xib */; };
 		80FB5A741B369C8100FE473E /* Cat_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB5A731B369C8100FE473E /* Cat_AppTests.m */; };
+		80FB5A7F1B36A65B00FE473E /* CatJokesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FB5A7E1B36A65B00FE473E /* CatJokesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +34,18 @@
 		80FB5A561B369C8100FE473E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80FB5A581B369C8100FE473E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80FB5A591B369C8100FE473E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80FB5A5B1B369C8100FE473E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		80FB5A5C1B369C8100FE473E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		80FB5A5E1B369C8100FE473E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		80FB5A5F1B369C8100FE473E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		80FB5A5B1B369C8100FE473E /* CatImagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatImagesViewController.h; sourceTree = "<group>"; };
+		80FB5A5C1B369C8100FE473E /* CatImagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatImagesViewController.m; sourceTree = "<group>"; };
+		80FB5A5E1B369C8100FE473E /* CatIdentifierViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatIdentifierViewController.h; sourceTree = "<group>"; };
+		80FB5A5F1B369C8100FE473E /* CatIdentifierViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatIdentifierViewController.m; sourceTree = "<group>"; };
 		80FB5A621B369C8100FE473E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80FB5A641B369C8100FE473E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		80FB5A671B369C8100FE473E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		80FB5A6D1B369C8100FE473E /* Cat-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80FB5A721B369C8100FE473E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80FB5A731B369C8100FE473E /* Cat_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat_AppTests.m; sourceTree = "<group>"; };
+		80FB5A7D1B36A65B00FE473E /* CatJokesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatJokesViewController.h; sourceTree = "<group>"; };
+		80FB5A7E1B36A65B00FE473E /* CatJokesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatJokesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +89,12 @@
 			children = (
 				80FB5A581B369C8100FE473E /* AppDelegate.h */,
 				80FB5A591B369C8100FE473E /* AppDelegate.m */,
-				80FB5A5B1B369C8100FE473E /* FirstViewController.h */,
-				80FB5A5C1B369C8100FE473E /* FirstViewController.m */,
-				80FB5A5E1B369C8100FE473E /* SecondViewController.h */,
-				80FB5A5F1B369C8100FE473E /* SecondViewController.m */,
+				80FB5A5B1B369C8100FE473E /* CatImagesViewController.h */,
+				80FB5A5C1B369C8100FE473E /* CatImagesViewController.m */,
+				80FB5A5E1B369C8100FE473E /* CatIdentifierViewController.h */,
+				80FB5A5F1B369C8100FE473E /* CatIdentifierViewController.m */,
+				80FB5A7D1B36A65B00FE473E /* CatJokesViewController.h */,
+				80FB5A7E1B36A65B00FE473E /* CatJokesViewController.m */,
 				80FB5A611B369C8100FE473E /* Main.storyboard */,
 				80FB5A641B369C8100FE473E /* Images.xcassets */,
 				80FB5A661B369C8100FE473E /* LaunchScreen.xib */,
@@ -224,9 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80FB5A601B369C8100FE473E /* SecondViewController.m in Sources */,
+				80FB5A601B369C8100FE473E /* CatIdentifierViewController.m in Sources */,
 				80FB5A5A1B369C8100FE473E /* AppDelegate.m in Sources */,
-				80FB5A5D1B369C8100FE473E /* FirstViewController.m in Sources */,
+				80FB5A5D1B369C8100FE473E /* CatImagesViewController.m in Sources */,
+				80FB5A7F1B36A65B00FE473E /* CatJokesViewController.m in Sources */,
 				80FB5A571B369C8100FE473E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
