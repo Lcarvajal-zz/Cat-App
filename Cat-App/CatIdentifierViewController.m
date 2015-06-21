@@ -1,5 +1,5 @@
 //
-//  SecondViewController.m
+//  CatIdentifierViewController.m
 //  Cat-App
 //
 //  Created by Lukas Carvajal on 6/21/15.
@@ -22,6 +22,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+// handle return button for textview in order to identify cat
+- (IBAction)returnKeyButton:(id)sender {
+    [self resignFirstResponder];
 }
 
 @end

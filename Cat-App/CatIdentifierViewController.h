@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  CatIdentifierViewController.h
 //  Cat-App
 //
 //  Created by Lukas Carvajal on 6/21/15.
@@ -10,6 +10,8 @@
 
 @interface CatIdentifierViewController : UIViewController
 
+- (IBAction)returnKeyButton : (id) sender;
+@property (weak, nonatomic) IBOutlet UITextField *catToIdentifyTF;
 
 @end
 

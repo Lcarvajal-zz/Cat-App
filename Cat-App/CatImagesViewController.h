@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  CatImagesViewController.h
 //  Cat-App
 //
 //  Created by Lukas Carvajal on 6/21/15.
@@ -10,6 +10,9 @@
 
 @interface CatImagesViewController : UIViewController
 
+- (IBAction)returnKeyButton : (id) sender;
+
+- (NSString*)convertURL:(NSString*)catName;
 
 @end
 
