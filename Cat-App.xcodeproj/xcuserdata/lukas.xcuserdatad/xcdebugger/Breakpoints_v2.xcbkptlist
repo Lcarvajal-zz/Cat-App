@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cat-App/CatImagesViewController.m"
-            timestampString = "456599546.965339"
+            timestampString = "456599936.348524"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "-convertURL:"
             landmarkType = "5">
          </BreakpointContent>

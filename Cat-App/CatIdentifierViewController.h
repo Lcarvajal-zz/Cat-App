@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CatIdentifierViewController : UIViewController
+@interface CatIdentifierViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
 
-- (IBAction)returnKeyButton : (id) sender;
-@property (weak, nonatomic) IBOutlet UITextField *catToIdentifyTF;
+
+@property (weak, nonatomic) IBOutlet UIPickerView *catTypes;
+@property (weak, nonatomic) IBOutlet UIImageView *catPicture;
+
+
+@property NSArray *cats;
 
 @end
 

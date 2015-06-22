@@ -19,7 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // default web view with normal cat photos
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL: [NSURL URLWithString:@"http://www.garfieldwallpapers.com/wp-content/uploads/wallpapers/garfield_with_lasagna_plate_wallpaper-336x280.jpg"]];
+    [_webView loadRequest: request];
 }
 
 - (void)didReceiveMemoryWarning {
